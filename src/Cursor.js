@@ -1,5 +1,5 @@
 const
-    OriginalCursor = require('nedb/lib/cursor')
+    OriginalCursor = require('@ar-maged/nedb/lib/cursor')
 
 /**
  * @class
