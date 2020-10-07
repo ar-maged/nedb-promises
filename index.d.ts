@@ -205,6 +205,7 @@ declare namespace Nedb {
     inMemoryOnly?: boolean // Optional, default to false
     nodeWebkitAppName?: boolean // Optional, specify the name of your NW app if you want options.filename to be relative to the directory where
     autoload?: boolean // Optional, defaults to false
+    autocompact?: boolean // Optional, defaults to false
     // Optional, if autoload is used this will be called after the load database with the error object as parameter. If you don't pass it the error will be thrown
     onload?(error: Error): any
     // (optional): hook you can use to transform data after it was serialized and before it is written to disk.
